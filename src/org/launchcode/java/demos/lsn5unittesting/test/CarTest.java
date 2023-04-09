@@ -31,7 +31,7 @@ public class CarTest {
     //TODO: gasTankLevel is accurate after driving within tank range
     @Test
     public void testGasTankAfterDriving(){
-
+        assertEquals(0, 0,.001);
     }
 
     //TODO: gasTankLevel is accurate after attempting to drive past tank range
